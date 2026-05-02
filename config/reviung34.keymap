@@ -219,13 +219,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base {
-            display-name = "Base";
+        colemak {
+            display-name = "Colemak";
             bindings = <
-&kp Q        &kp W        &kp F       &kp P     &kp T         &kp Y        &kp U  &kp I           &kp O          &kp P
-&kp A        &kp S        &kp D       &kp F     &kp G         &kp H        &kp J  &kp K           &kp L          &kp SEMI
-&mt LSHFT Z  &mt LCTRL X  &mt LALT C  &kp V     &kp B         &kp N        &kp M  &mt RALT COMMA  &mt RCTRL DOT  &mt RSHFT SLASH
-                                      &kp LGUI  &lt 1 BSPC    &lt 2 SPACE  &mo 3
+&kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y       &kp SEMI
+&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I  &mt LC(O) O
+&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &kp EQUAL   &kp SLASH
+                                                            &mo 4                    &kp SPACE          &kp RET          &mo 5
             >;
         };
 
@@ -266,6 +266,33 @@
 &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &none            &none            &rgb_ug RGB_TOG  &none            &none              &none         &none         &bt BT_CLR    &none         &none
                                                    &none            &trans             &trans        &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
