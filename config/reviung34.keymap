@@ -279,13 +279,13 @@
             >;
         };
 
-        meta {
-            display-name = "Meta";
+        Settings {
+            display-name = "Settings";
             bindings = <
-&rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF    &none         &none         &none         &none         &none
-&rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none            &none            &rgb_ug RGB_TOG  &none            &none              &none         &none         &bt BT_CLR    &none         &none
-                                                   &none            &trans             &trans        &none
+&to 0       &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRD    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
+&bt_0       &bt_1            &bt_2            &bt_3            &bt_4              &kt F6   &kp F7   &kp F8  &kp F9  &kp F10
+&bt BT_CLR  &none            &rgb_ug RGB_TOG  &none            &soft_off          &kp F11  &kp F12  &none   &none   &none
+                                              &mo 5            &trans             &trans   &mo 5
             >;
         };
 
