@@ -225,7 +225,7 @@
 &kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y       &kp SEMI
 &mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I  &mt LC(O) O
 &ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &kp EQUAL   &kp SLASH
-                                                            &mo 4                    &kp SPACE          &kp RET          &mo 5
+                                                            &mo 6                    &kp SPACE          &kp RET          &mo 7
             >;
         };
 
@@ -235,17 +235,37 @@
 &kp Q  &kp W  &kp E                   &kp R                    &kp T              &kp Y            &kp U             &kp I              &kp O             &kp P
 &kp A  &kp S  &mt LEFT_PARENTHESIS D  &mt RIGHT_PARENTHESIS F  &mt SLASH G        &mt COLON H      &mt LEFT_BRACE J  &mt RIGHT_BRACE K  &kp SEMICOLON     &mt DOUBLE_QUOTES SQT
 &kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET V      &mt BACKSLASH B    &mt SEMICOLON N  &kp M             &kp COMMA          &mt EQUAL PERIOD  &kp SLASH
-                                      &mo 4                    &kp SPACE          &kp RET          &mo 5
+                                      &mo 6                    &kp SPACE          &kp RET          &mo 7
             >;
         };
 
-        upper {
-            display-name = "Upper";
+        Rhand {
+            display-name = "Rhand";
             bindings = <
-&kp N1  &kp N2     &kp N3   &kp N4    &kp N5    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0
-&trans  &kp GRAVE  &kp SQT  &kp BSLH  &trans    &trans  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT
-&trans  &trans     &trans   &trans    &trans    &trans  &trans     &trans     &trans    &trans
-                            &trans    &mo 4     &trans  &trans
+&kp Q             &ht_copy_mac 0 W  &kp F                   &kp L                    &kp J              &kp J            &kp L             &kp U              &kp Y       &kp SEMI
+&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I  &mt LC(O) O
+&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &kp EQUAL   &kp SLASH
+                                                            &mo 6                    &kp SPACE          &kp RET          &mo 7
+            >;
+        };
+
+        Lhand {
+            display-name = "Lhand";
+            bindings = <
+&kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y       &kp SEMI
+&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I  &mt LC(O) O
+&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &kp EQUAL   &kp SLASH
+                                                            &mo 6                    &kp SPACE          &kp RET          &mo 7
+            >;
+        };
+
+        Numbers {
+            display-name = "Numbers";
+            bindings = <
+&kp N1          &kp N2          &kp N3        &kp N4           &kp N5      &kp N6         &kp N7          &kp N8         &kp N9            &kp N0
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp HOME    &caps_word     &kp H           &kp J          &kp K             &kp L
+&kp BACKSPACE   &kp PG_DN       &kp PG_UP     &key_repeat      &kp END     &kp MINUS      &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION
+                                              &trans           &to 7       &kp BACKSPACE  &trans
             >;
         };
 
