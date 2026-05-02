@@ -224,9 +224,9 @@
         colemak {
             display-name = "Colemak";
             bindings = <
-&kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y       &kp SEMI
-&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I  &mt LC(O) O
-&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &kp EQUAL   &kp SLASH
+&kp Q             &ht_copy_mac 0 W  &kp F                   &ht_paste_mac 0 P        &kp B              &kp J            &kp L             &kp U              &kp Y             &kp SEMI
+&mt LC(A) A       &mt LC(S) R       &mt LEFT_PARENTHESIS S  &mt RIGHT_PARENTHESIS T  &mt SLASH G        &mt COLON M      &mt LEFT_BRACE N  &mt RIGHT_BRACE E  &mt PLUS I        &mt LC(O) O
+&ht_tmx_scrl 0 Z  &ht_cut_mac 0 X   &mt LEFT_BRACKET C      &mt RIGHT_BRACKET D      &mt BACKSLASH V    &mt SEMICOLON K  &kp H             &kp COMMA          &mt EQUAL PERIOD  &kp SLASH
                                                             &mo 4                    &kp SPACE          &kp RET          &mo 5
             >;
         };
