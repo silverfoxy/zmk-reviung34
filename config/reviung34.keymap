@@ -106,6 +106,60 @@
             release-after-ms = <1000>;
             quick-release;
         };
+
+        ht_copy_mac: ht_copy_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_COPY_MAC";
+            bindings = <&copy_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
+
+        ht_cut_mac: ht_cut_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_CUT_MAC";
+            bindings = <&cut_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
+
+        ht_paste_mac: ht_paste_mac {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_PASTE_MAC";
+            bindings = <&paste_mac>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <500>;
+            flavor = "tap-preferred";
+        };
+
+        hold_tap_layer: hold_tap_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_LAYER";
+            bindings = <&kp>, <&tog>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
+        };
+
+        ht_tmx_scrl: ht_tmx_scrl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_TMX_SCRL";
+            bindings = <&mc_tmx_scrl>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <200>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
