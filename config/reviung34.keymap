@@ -13,6 +13,7 @@
 &mt {
     tapping-term-ms = <300>;
     require-prior-idle-ms = <100>;
+    flavor = "tap-preferred";
 };
 
 &mmv {
@@ -236,7 +237,7 @@
 &kp Q  &kp W  &kp E                   &kp R                    &kp T              &kp Y            &kp U             &kp I              &kp O             &kp P
 &kp A  &kp S  &mt LEFT_PARENTHESIS D  &mt RIGHT_PARENTHESIS F  &mt SLASH G        &mt COLON H      &mt LEFT_BRACE J  &mt RIGHT_BRACE K  &kp SEMICOLON     &mt DOUBLE_QUOTES SQT
 &kp Z  &kp X  &mt LEFT_BRACKET C      &mt RIGHT_BRACKET V      &mt BACKSLASH B    &mt SEMICOLON N  &kp M             &kp COMMA          &mt EQUAL PERIOD  &kp SLASH
-                                      &mo 6                    &kp SPACE          &kp RET          &mo 7
+                                      &mo 4                    &kp SPACE          &kp RET          &mo 5
             >;
         };
 
