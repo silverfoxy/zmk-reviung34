@@ -176,7 +176,7 @@
         };
 
         Ctrl {
-            bindings = <&skq LCTRL>;
+            bindings = <&sk LCTRL>;
             key-positions = <12 11>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -184,7 +184,7 @@
         };
 
         Alt {
-            bindings = <&skq LEFT_ALT>;
+            bindings = <&sk LEFT_ALT>;
             key-positions = <11 10>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -192,7 +192,7 @@
         };
 
         Mod {
-            bindings = <&skq LEFT_GUI>;
+            bindings = <&sk LEFT_GUI>;
             key-positions = <23 22>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -200,7 +200,7 @@
         };
 
         r_Shift {
-            bindings = <&skq RIGHT_SHIFT>;
+            bindings = <&sk RIGHT_SHIFT>;
             key-positions = <18 19>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -208,7 +208,7 @@
         };
 
         r_Ctrl {
-            bindings = <&skq RCTRL>;
+            bindings = <&sk RCTRL>;
             key-positions = <18 17>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -216,7 +216,7 @@
         };
 
         r_Alt {
-            bindings = <&skq RALT>;
+            bindings = <&sk RALT>;
             key-positions = <17 16>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
@@ -224,7 +224,7 @@
         };
 
         r_Mod {
-            bindings = <&skq RIGHT_GUI>;
+            bindings = <&sk RIGHT_GUI>;
             key-positions = <26 27>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
