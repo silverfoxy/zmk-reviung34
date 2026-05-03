@@ -170,51 +170,81 @@
         Shift {
             bindings = <&skq LEFT_SHIFT>;
             key-positions = <13 12>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         Ctrl {
             bindings = <&skq LCTRL>;
             key-positions = <12 11>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         Alt {
             bindings = <&skq LEFT_ALT>;
             key-positions = <11 10>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         Mod {
             bindings = <&skq LEFT_GUI>;
             key-positions = <23 22>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         r_Shift {
             bindings = <&skq RIGHT_SHIFT>;
             key-positions = <18 19>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         r_Ctrl {
             bindings = <&skq RCTRL>;
             key-positions = <18 17>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         r_Alt {
             bindings = <&skq RALT>;
             key-positions = <17 16>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         r_Mod {
             bindings = <&skq RIGHT_GUI>;
             key-positions = <26 27>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <250>;
+            layers = <0 1>;
         };
 
         toggle_qwerty {
             bindings = <&to 1>;
-            key-positions = <33 30>;
+            key-positions = <33 30 0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <350>;
+            layers = <0>;
         };
 
         toggle_colemakdh {
             bindings = <&to 0>;
-            key-positions = <33 30>;
+            key-positions = <33 30 0>;
+            timeout-ms = <75>;
+            require-prior-idle-ms = <350>;
+            layers = <1>;
         };
     };
 
