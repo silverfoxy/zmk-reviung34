@@ -246,6 +246,11 @@
             require-prior-idle-ms = <350>;
             layers = <1>;
         };
+
+        toggle_mouse {
+            bindings = <&to 7>;
+            key-positions = <30 33 16>;
+        };
     };
 
     keymap {
