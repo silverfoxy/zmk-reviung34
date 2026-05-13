@@ -216,7 +216,7 @@
         };
 
         r_Alt {
-            bindings = <&sk RALT>;
+            bindings = <&sk LEFT_ALT>;
             key-positions = <17 16>;
             timeout-ms = <200>;
             require-prior-idle-ms = <250>;
