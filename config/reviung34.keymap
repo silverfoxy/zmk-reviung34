@@ -268,9 +268,9 @@
         Symbols {
             display-name = "Symbols";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT      &kp CARET      &kp AMPERSAND   &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TAB          &kp GRAVE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp PLUS              &kp ESCAPE
-&kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp PIPE        &kp LOCKING_CAPS  &kp EQUAL             &kp TILDE
+&kp EXCLAMATION  &kp AT_SIGN        &kp HASH              &kp DOLLAR             &kp PERCENT      &kp CARET      &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB          &kp GRAVE          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS              &kp ESCAPE
+&kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH    &kp SEMICOLON  &kp PIPE        &kp CAPSLOCK     &kp EQUAL             &kp TILDE
                                                           &tog 4                 &kp DELETE       &kp RET        &kp RIGHT_ALT
             >;
         };
